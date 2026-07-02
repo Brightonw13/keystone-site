@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #0b1220, #05070d);
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 10px rgba(201, 162, 39, 0.4));
+}
+
+h1 {
+  letter-spacing: 4px;
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.coming-soon {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #c9a227;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  opacity: 0.75;
+  font-size: 14px;
+}
+
+.domain {
+  margin-top: 30px;
+  font-size: 12px;
+  opacity: 0.4;
+}
